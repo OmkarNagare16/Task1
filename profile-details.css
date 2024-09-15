@@ -1,0 +1,180 @@
+/* Profile Details Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa; /* Light cyan background */
+}
+
+header {
+    background-color: #00796b; /* Dark teal for header */
+    color: white;
+    padding: 1px 4px; /* Reduced padding */
+    text-align: center;
+    font-size: 14px; /* Smaller font size */
+    margin-bottom: 0px; /* Margin to separate from main content */
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-card {
+    background: #ffffff; /* White background for content */
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 100%;
+    max-width: 700px; /* Card width */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.profile-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    width: 120px; /* Adjusted size */
+    height: 120px; /* Adjusted size */
+    border-radius: 50%;
+    border: 4px solid #00796b; /* Border color matching header */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-image:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.profile-info {
+    flex-grow: 1;
+}
+
+.profile-info h2 {
+    font-size: 24px; /* Adjusted font size */
+    color: #004d40; /* Darker teal for text */
+    margin: 0;
+}
+
+.job-title {
+    font-size: 16px; /* Adjusted font size */
+    color: #00796b; /* Dark teal for job title */
+    margin: 10px 0;
+}
+
+.profile-details {
+    margin-top: 20px;
+}
+
+.profile-details h3 {
+    font-size: 20px; /* Adjusted font size */
+    color: #004d40; /* Darker teal for headings */
+    margin-bottom: 10px;
+    border-bottom: 2px solid #00796b; /* Underline with color */
+    padding-bottom: 5px;
+}
+
+.profile-details p, .profile-details ul {
+    font-size: 16px; /* Adjusted font size */
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.profile-details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.profile-details ul li {
+    margin-bottom: 10px;
+    padding-left: 20px; /* Indentation */
+    position: relative;
+}
+
+.profile-details ul li::before {
+    content: '•'; /* Bullet point */
+    color: #00796b; /* Bullet color */
+    position: absolute;
+    left: 0;
+}
+
+.profile-links {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px; /* Space between icons */
+}
+
+.profile-links a {
+    font-size: 24px; /* Adjusted size */
+    color: #fff;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
+}
+
+.profile-links .github {
+    background-color: #333; /* GitHub black */
+}
+
+.profile-links .linkedin {
+    background-color: #0077b5; /* LinkedIn blue */
+}
+
+.profile-links .twitter {
+    background-color: #1da1f2; /* Twitter blue */
+}
+
+.profile-links a:hover {
+    color: #fff;
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: #00796b; /* Dark teal for footer */
+    color: white;
+    padding: 5px; /* Reduced padding */
+    text-align: center;
+    font-size: 12px; /* Reduced footer font size */
+}
+
+/* About Section */
+.about {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #ffffff; /* White background for section */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 700px;
+}
+
+.about h2 {
+    font-size: 20px; /* Font size for section heading */
+    color: #004d40; /* Darker teal for text */
+}
+
+.about p {
+    font-size: 16px; /* Font size for paragraph */
+    color: #333;
+    margin: 10px 0;
+}

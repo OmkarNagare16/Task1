@@ -1,0 +1,68 @@
+/* Contact Us Section Styles */
+#contact-us {
+    background-color: #f2f2f2; /* Light grey background */
+    padding: 40px 20px;
+    margin-top: 20px; /* Space above the section */
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff; /* White background for form */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#contact-us h2 {
+    text-align: center;
+    color: #00796b; /* Dark teal color */
+    margin-bottom: 20px;
+}
+
+.input-box {
+    margin-bottom: 15px;
+}
+
+.input-box label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #333;
+}
+
+.input-box input[type="text"],
+.input-box input[type="tel"],
+.input-box textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.input-box input[type="text"]:focus,
+.input-box input[type="tel"]:focus,
+.input-box textarea:focus {
+    border-color: #00796b;
+    outline: none;
+}
+
+.input-box textarea {
+    resize: vertical;
+}
+
+.input-box input[type="submit"] {
+    background-color: #00796b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.input-box input[type="submit"]:hover {
+    background-color: #005b4f;
+}
